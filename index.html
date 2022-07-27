@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio Website of John Doe</title>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <div class="top">
+    <header>
+      <h1>John Doe's Portfolio Website</h1>
+    </header>
+    <!-- navigation -->
+    <nav>
+
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+    </nav>
+  </div>
+  <article class="hero">
+    <div class="caption">
+      <h2 class="hero">Hey, I'm John Doe! </h2>
+      <p class="hero">I'm a software engineer based out of the Bay Area. To learn more about me, continue scrolling down
+        this page. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, adipisci. Ex excepturi labore
+        consequatur assumenda culpa iusto unde maiores harum facere illum? Aperiam et inventore tempora! Autem impedit
+        earum sapiente.</p>
+    </div>
+    <img src="images/placeholder-profile-sq.jpg" id="profilepic" alt="picture of John Doe">
+    <img class="hero" src="images/258483.jpg" alt="View of the Golden Gate Bridge">
+  </article>
+
+  <!-- main content -->
+  <div class="main-container">
+    <main>
+
+
+      <div class="left">
+        <article id="about">
+          <h2 class="article">About myself</h2>
+          <p class="article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p><a href="#">Read my full bio</a></p>
+        </article>
+        <article id="portfolio">
+          <h2 class="article">Featured projects</h2>
+          <div class="imageGroup">
+            <div class="cycle-slideshow" data-cycle-fx="scrollHorz" data-cycle-timeout="0" data-cycle-prev="#prev"
+              data-cycle-next="#next">
+              <img src="images/8e6.png" alt="Picture of a chubby Yoshi">
+              <img src="images/placeholder.png" alt="Placeholder image">
+              <img src="images/1006771.png" alt="Symbol representing the internet">
+
+              <p>Projects shown: Big Yoshi, Placeholder, A Website</p>
+              <div class="center">
+                <a href=# id="prev">Prev</a>
+                <a href=# id="next">Next</a>
+              </div>
+            </div>
+          </div>
+          <p><a href="#">View my full portfolio</a></p>
+        </article>
+        <article id="contact">
+          <h2 class="article">How to contact me</h2>
+          <p class="article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut
+            labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p><a href="#">Contact Me</a></p>
+        </article>
+      </div>
+      <div class="right">
+        <aside>
+          <section>
+            <a href="#">
+              <h2>A Blog Post</h2>
+            </a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex
+              ea commodo consequat. Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+              occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </section>
+          <section>
+            <a href="#">
+              <h2>Another Blog Post</h2>
+            </a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex
+              ea commodo consequat. Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+              occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </section>
+          <section>
+            <a href="#">
+              <h2>Other Blog Posts</h2>
+            </a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex
+              ea commodo consequat. Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+              occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </section>
+        </aside>
+      </div>
+    </main>
+  </div>
+  <footer>
+    <p>&copy; Copyright Ethan Huynh 2022</p>
+    <div class="social"></div>
+
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="https://malsup.github.io/jquery.cycle2.js"></script>
+</body>
+
+</html>
