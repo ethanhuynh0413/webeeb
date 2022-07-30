@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 0%
+}
+
+.hamburger {
+    z-index: 101;
+    width: 100%;
+    position: fixed;
+    background-color: orange;
+}
+
+#logo {
+    display: block;
+    float: left;
+}
+
+li.logo {
+    display: inline-block;
+    font-size: 3em;
+}
+
+.logo a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: double;
+}
+
+.navigation {
+    width: 80%;
+    text-align: center;
+    margin: auto
+}
+
+nav {
+    position: absolute;
+    background-color: orange;
+    padding: 0;
+    z-index: 1;
+    width: 100%;
+    margin: auto;
+
+}
+
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 999;
+
+}
+
+nav ul {
+    display: block;
+    float: right;
+    margin: 2em 0 2em;
+}
+
+nav ul li.nav {
+    display: inline-block;
+    padding: 0 2em;
+}
+
+
+nav li.nav a:hover {
+    color: #777777
+}
+
+.main-container {
+    width: 100%;
+    padding: 1em 0;
+    overflow: auto
+}
+
+.main-container main {
+    margin: auto;
+
+}
+
+main {
+    width: 80%;
+}
+
+.imageGroup {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.image {
+    position: relative;
+    width: 30%;
+}
+
+.image img {
+    width: 100%
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.9);
+    color: #f1f1f1;
+    width: 100%;
+    height:100%;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.image:hover .overlay {
+    opacity: 1;
+}
+article h2.article {
+    font-size: 2em;
+    background: orange;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+article p a {
+    display: block;
+    color: white;
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+    font-family: sans-serif;
+    border-top: 1px solid black;
+    text-decoration: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+article p a:hover {
+    text-decoration: underline;
+}
+
+
+
+.left {
+    position: relative;
+    width: 70%;
+    display: inline-block;
+}
+
+#about,
+#portfolio,
+#contact {
+    margin-bottom: 35px;
+    border: 1px solid black;
+    box-shadow: 3px 4px 7px #888888;
+    border-radius: 20px;
+}
+
+
+.caption {
+    width: 50%;
+    top: 25%;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: xxx-large;
+    overflow-y: auto;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+h2.hero {
+    text-align: center;
+    font-size: 48px;
+}
+
+p.hero {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+p.article {
+    background: rgb(244, 244, 244);
+    color: black;
+    font-family: sans-serif;
+    padding: 1em;
+
+}
+
+article.hero {
+    margin-bottom: 35px;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(/images/258483.jpg);
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    position: relative;
+    width: 27%;
+    float: right;
+
+}
+
+.right aside section {
+    background-color: rgb(244, 244, 244);
+    box-shadow: 3px 4px 7px #888888;
+    padding: 10px;
+    margin: 0 0 35px 0;
+    color: black;
+    height: 199px;
+    overflow: auto;
+    border-radius: 20px;
+    border: 1px solid black
+}
+
+aside section h2 {
+    color: black;
+}
+
+footer {
+    color: white;
+    background: gray;
+    padding: 2em;
+    text-align: center
+}
